@@ -68,5 +68,6 @@ class Bot(webdriver.Chrome):
             load = pay_load_section.find_elements(self.by.CSS_SELECTOR, '#segments-container > ytd-transcript-segment-renderer > div > yt-formatted-string')
             for line in load:
                 pdf_manager.add_text(line.text)
+            print(f"Transcript saved. Check downloads!")
         except Exception as e:
             print(str(e))

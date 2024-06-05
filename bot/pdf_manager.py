@@ -19,4 +19,4 @@ class PDFManager:
         for text in self.text_list:
             pdf.multi_cell(0, 10, text)
         pdf.output(self.file_path)
-        print(f"PDF updated and saved to {self.file_path}")
+        # print(f"PDF updated and saved to {self.file_path}")
