@@ -1,0 +1,1 @@
+BASE_URL_s = ['https://www.youtube.com/watch?v=yXCMU72z0Ms']
