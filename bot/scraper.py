@@ -1,6 +1,6 @@
 from selenium import webdriver
 import time
-from app.bot.pdf_manager import PDFManager
+from bot.pdf_manager import PDFManager
 
 class Bot(webdriver.Chrome):
     def __init__(self, Service, ChromeDriverManager, driverWait, EC, By, Options, NoSuchElementException, StaleElementReferenceException, teardown=False)-> None:    
